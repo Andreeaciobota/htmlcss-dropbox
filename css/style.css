@@ -91,14 +91,24 @@ main h1 {
 .secondo_bottone_blu {
   background-color: #0061FF;
   color: white;
+  padding: 10px 20px;
+  margin-top: 50px;
+  width: 194px;
+  cursor: pointer;
+
 }
 .arrow{
+  margin-top: 50px;
   margin-bottom: 30px;
   font-size: 35px;
+  
 }
 
 .img_jumbo{ 
   width: 70%;
   position: absolute;
 }
-
+.testo{
+  margin-top: 20px;
+  
+}
