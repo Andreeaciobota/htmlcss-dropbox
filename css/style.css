@@ -18,7 +18,7 @@ img{
 }
 .flex{
   display: flex;
-  flex-wrap: wrap;
+  
 }
 
 .flex_colum{
@@ -34,7 +34,7 @@ img{
 }
 
 .header{
-  align-content: center;
+  
   padding: 25px 12px;
 }
 header ul{
@@ -90,6 +90,8 @@ main h1 {
   margin-top: 50px;
   width: 194px;
   cursor: pointer;
+  text-align: center;
+  
 
 }
 .arrow{
@@ -110,4 +112,128 @@ main h1 {
   padding-top: 45px;
   height: 365px;
   position: relative;
+}
+/*parte delle check list*/
+
+.container_small {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.titolo_h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius:20px;
+}
+.circle_checked{
+  height: 11px;
+  width: 11px;
+  border: 6px solid #0061FF;
+}
+.checkbox{
+  gap: 10px;
+}
+.checkbox span {
+  padding-right: 40px;
+}
+
+.section_2{
+  padding-top: 60px;
+  gap: 27px;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.categoria {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.container_testo {
+  padding: 35px 30px;
+} 
+
+.card h3 {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.prezzo {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.mese {
+  display: block;
+  color: grey;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.container_testo p {
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.info_card {
+  padding: 35px 0;
+}
+
+.container_testo > p {
+  margin-top: 30px;
+}
+
+.container_testo a {
+  color: #0061FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container_testo hr{
+  margin: 30px 0;
+  width: 40px;
+  color: lightgray;
+}
+
+.container_testo h4{
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.container_testo li i{
+  color: #0061FF;
+}
+
+.container_testo ul li{
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.card_orizzontale {
+  width: 100%;
+  margin-top: 40px;
+  border: 1px solid lightgrey;
+  margin-bottom: 150px;
+
+}
+
+.container_testo div.flex {
+  justify-content: space-between;
+  align-items: center;
 }
