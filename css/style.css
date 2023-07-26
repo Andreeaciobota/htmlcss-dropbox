@@ -198,7 +198,7 @@ form {
 .flex.checkbox span {
   font-size: 16px;
 }
-
+/* Stile delle card */
 
 .titolo_h2 {
   font-size: 24px;
@@ -381,6 +381,7 @@ form {
 .column-operations{
   flex-basis: calc(100% / 3);
 }
+
 .section-team-title{
   width: 60%;
 }
@@ -406,3 +407,135 @@ form {
 .column-square-right{
   flex-basis: calc(100% / 3);
 }
+/*sezione prima dei quadrati colorati*/
+.section_5 a {
+  margin-bottom: 140px;
+  display: inline-block;
+}
+
+.section_5 .col {
+  width: calc(100% / 3);
+  background-color: #F5F5F5;
+}
+
+.row-square{
+  display: flex;
+  height: 350px;
+}
+
+.column-square-left{
+  flex-basis: calc(100% / 3);
+}
+
+.column-square-center{
+  flex-basis: calc(100% / 3);
+  background-color: #F5F5F5;
+  border: 10px solid transparent;
+}
+.card-square-over, .card-square-bottom{
+  display: flex;
+  flex-basis: 100%;
+  height: 50%;
+}
+.column-square-right{
+  flex-basis: calc(100% / 3);
+}
+.card-square-over, .card-square-bottom{
+  display: flex;
+  flex-basis: 100%;
+  height: 50%;
+}
+
+.content-square-lateral{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid transparent;
+}
+.content-square-lateral:hover{
+  border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+.column-square-center:hover{
+  border: 10px solid rgba(220, 220, 220, 0.5);
+}
+
+.row-square img{
+  width: 70%;
+}
+
+.img-right { 
+  filter: invert(1);
+  fill: white;
+}
+.img-left{
+  filter: invert(1);
+  fill: white;
+
+}
+.paragraph-square{
+  width: 90%;
+}
+.border-empty-square{
+  width: 20%;
+  border-top: 1px solid #C9C9C9;
+}
+
+.dropbox-company{
+  background-color: #0093CE;
+}
+
+.dropbox-company-content{
+  height: 200px;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropbox-company-content-title{
+  align-items: center;
+  color: #61082B;
+  flex-basis: 50%;
+}
+.dropbox-company-content-button{
+  text-align: center;
+}
+
+.dropbox-company-content button{
+  border: 1px solid white;
+  background-color: white;
+}
+.bg-green{
+  background-color: #A2D39B;
+}
+
+.bg-bordeaux{
+  background-color: #61082B;
+}
+
+.bg-light-blue{
+  background-color: #0093CE;
+}
+
+.bg-bright-red{
+  background-color: #FF1C1C;
+}
+
+.bg-red{
+  background-color: #D5001F;
+}
+
+.bg-light-light-blue{
+  background-color: #B4D0E7;
+}
+
+.bg-dark-blue{
+  background-color: #0D2481;
+}
+
+.bg-yellow{
+  background-color: #FFD830;
+}
+/*fine cards colorate */
