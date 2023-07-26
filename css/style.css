@@ -539,3 +539,25 @@ form {
   background-color: #FFD830;
 }
 /*fine cards colorate */
+.section_6 .col-1 {
+  width: 69%;
+}
+.bottone_bianco {
+  background-color: white;
+  width: 200px;
+  padding: 5px 5px;
+}
+
+.section_6 .row {
+  justify-content: space-between;
+  padding-top: 132px;
+  padding-bottom: 60px;
+}
+
+.section_6 h2 {
+  color: #61082B;
+}
+
+.section_6 {
+  margin-bottom: 150px;
+}
